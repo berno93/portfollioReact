@@ -3,7 +3,6 @@ import NoMatch from "./NoMatch";
 import Navigation from "../layout/navigation";
 import Projects from "../pages/projects";
 import Main from "../pages/Main";
-import Main from "../pages/";
 
 const Routeur = () => {
   return (
@@ -12,7 +11,7 @@ const Routeur = () => {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/skills" element= {<Skills />}/>
+          {/* <Route path="/skills" element= {<Skills />}/> */}
           <Route path="*" element={<NoMatch />} />
         </Routes>
       </Navigation>
