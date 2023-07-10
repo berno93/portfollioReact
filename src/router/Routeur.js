@@ -1,8 +1,8 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import NoMatch from "./NoMatch";
-import Navigation from "../layout/navigation";
-import Projects from "../pages/projects";
-import Main from "../pages/Main";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NoMatch from './NoMatch';
+import Navigation from '../layout/navigation';
+import Projects from '../pages/projects';
+import Main from '../pages/Main';
 
 const Routeur = () => {
   return (

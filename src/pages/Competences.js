@@ -1,19 +1,14 @@
-import Skills from "../components/skills";
-import "../styles/App.css";
-
+import Skills from '../components/skills';
+import '../styles/App.css';
 
 const Competences = () => {
-    return (
-        <>
-        <div>
-            <Skills
-                name="Php"
-                niveau="Avancée"
-            />
-        </div>
-        </>
-        
-    )
-}
+  return (
+    <>
+      <div>
+        <Skills name="Php" niveau="Avancée" />
+      </div>
+    </>
+  );
+};
 
 export default Competences;

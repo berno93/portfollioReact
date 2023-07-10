@@ -1,11 +1,10 @@
-import Experience from "../components/expreriences";
-import "../styles/App.css";
-
+import Experience from '../components/expreriences';
+import '../styles/App.css';
 
 const Projects = () => {
   return (
     <div className="App">
-      <Experience 
+      <Experience
         name="Interface Gestion de Fichier"
         description="Mise en place d’une interface de gestion de fichiers clients.
         Utilisations du Framework PHP Symfony, HTML Twig et CSS ,API Stripe,

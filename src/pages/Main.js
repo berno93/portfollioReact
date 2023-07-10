@@ -1,7 +1,9 @@
 // import logo from "../assets/img/logo.svg";
-import About from "../components/about";
-import Home from "../components/home";
-import "../styles/App.css";
+import About from '../components/about';
+import Counter from '../components/counter';
+import Darkmode from '../components/darkmode';
+import Home from '../components/home';
+import '../styles/App.css';
 
 const Main = () => {
   return (
@@ -18,6 +20,10 @@ const Main = () => {
         technologies pour créer des expériences en ligne innovantes et conviviales. Le développement web est ma passion et ma 
         vocation, et j'ai hâte de continuer à repousser les limites de ce domaine en constante évolution."
         />
+
+        <Counter />
+
+        <Darkmode />
       </div>
     </>
   );

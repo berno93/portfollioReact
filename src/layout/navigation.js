@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
-import "../styles/navbar.css";
+import { Link } from 'react-router-dom';
+import '../styles/navbar.css';
 
 const Navigation = ({ children }) => {
   return (
     <>
-      <header style={{ padding: "2%", backgroundColor: "lightgrey" }}>
+      <header style={{ padding: '2%', backgroundColor: 'lightgrey' }}>
         <ul>
           <li>
             <Link to="/">Accueil</Link>
@@ -19,7 +19,6 @@ const Navigation = ({ children }) => {
       </header>
 
       {children}
-
     </>
   );
 };

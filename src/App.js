@@ -1,4 +1,4 @@
-import Routeur from "./router/Routeur";
+import Routeur from './router/Routeur';
 
 /**
  * The function exports a component called "App" that returns a "Routeur" component.
@@ -7,5 +7,3 @@ import Routeur from "./router/Routeur";
 export default function App() {
   return <Routeur />;
 }
-
-
